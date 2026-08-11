@@ -1,0 +1,18 @@
+# Verilator build output
+obj_dir*/
+logs/
+*.vcd
+*.log
+coverage.dat
+
+# Vendored UVM (clone separately, see Makefile):
+#   git clone --branch uvm-2017-1.0-vlt --depth 1 \
+#     https://github.com/chipsalliance/uvm-verilator.git uvm-src
+uvm-src/
+
+# macOS
+.DS_Store
+
+# local tool config (not project source, machine/tool-specific)
+.claude/
+.vscode/
